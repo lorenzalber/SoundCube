@@ -1717,7 +1717,7 @@
 		)
 		(uuid "c367a13d-0874-47d3-a9ff-14f36151c2b9")
 	)
-	(text "Batterie kommt da dran\n"
+	(text "Batterie kommt da \n"
 		(exclude_from_sim no)
 		(at 106.172 80.264 0)
 		(effects
