@@ -1,0 +1,188 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8904b003-95b6-476e-93a4-c0afb2c5d7e3")
+	(paper "A4")
+	(lib_symbols)
+	(text "Microcontroller\n"
+		(exclude_from_sim no)
+		(at 63.5 68.58 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "42550424-6af6-413a-b9a3-0207a5d1f492")
+	)
+	(text "PSU\n"
+		(exclude_from_sim no)
+		(at 46.736 43.18 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "a1e586e7-2b12-49ea-9250-f44a7ede35d0")
+	)
+	(text "Verstärker\n"
+		(exclude_from_sim no)
+		(at 56.134 94.234 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "f9b27345-acf4-499b-a36c-850498ce3dab")
+	)
+	(sheet
+		(at 36.83 87.63)
+		(size 63.5 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "210fff72-e6f2-48da-a4dd-9c544128eb99")
+		(property "Sheetname" "Verstärker"
+			(at 36.83 86.9184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Verstärker.kicad_sch"
+			(at 36.83 100.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/8904b003-95b6-476e-93a4-c0afb2c5d7e3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 36.83)
+		(size 63.5 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bd481dc0-0e8b-4283-b170-81e53db339ca")
+		(property "Sheetname" "PowerSupply"
+			(at 36.83 36.1184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerSupply.kicad_sch"
+			(at 36.83 50.1146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/8904b003-95b6-476e-93a4-c0afb2c5d7e3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 62.23)
+		(size 63.5 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "be7c93a2-07bc-49e8-82ec-dc7616036343")
+		(property "Sheetname" "Microcontroller"
+			(at 36.83 61.5184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 36.83 75.5146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/8904b003-95b6-476e-93a4-c0afb2c5d7e3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
