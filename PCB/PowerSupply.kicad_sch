@@ -4928,7 +4928,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Batterie"
+		(property "Value" "Digital Schalter"
 			(at 129.54 21.5899 90)
 			(show_name no)
 			(do_not_autoplace no)

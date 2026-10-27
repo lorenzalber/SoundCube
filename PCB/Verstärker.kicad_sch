@@ -3109,6 +3109,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 92.71) (xy 254 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9238a20c-5516-425f-ab53-b5abde2d3e54")
+	)
+	(wire
+		(pts
 			(xy 190.5 80.01) (xy 190.5 82.55)
 		)
 		(stroke
@@ -3449,16 +3459,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 92.71) (xy 254 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0a13617-e252-439a-961d-5fc68ea349cf")
-	)
-	(wire
-		(pts
 			(xy 50.8 85.09) (xy 50.8 81.28)
 		)
 		(stroke
@@ -3671,17 +3671,17 @@
 	)
 	(global_label "GAIN"
 		(shape input)
-		(at 254 101.6 270)
+		(at 254 76.2 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "20022c76-7325-4a89-abc2-0d3155dfe642")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254 108.8791 90)
+			(at 254 68.9209 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3689,7 +3689,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -3882,30 +3882,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "GVDD"
-		(shape input)
-		(at 254 76.2 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6b0a3d30-14e1-4e44-aa40-b26eb2a92055")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254 68.3162 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -5331,6 +5307,84 @@
 			(project "PCB"
 				(path "/8904b003-95b6-476e-93a4-c0afb2c5d7e3/210fff72-e6f2-48da-a4dd-9c544128eb99"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80dcd28b-65d0-4d23-bde7-477cb26c17e9")
+		(property "Reference" "#PWR056"
+			(at 254 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16f0b724-f2e5-45b8-8484-ba41e8400c2e")
+		)
+		(instances
+			(project "PCB"
+				(path "/8904b003-95b6-476e-93a4-c0afb2c5d7e3/210fff72-e6f2-48da-a4dd-9c544128eb99"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
