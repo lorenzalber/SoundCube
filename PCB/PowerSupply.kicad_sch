@@ -1778,6 +1778,12 @@
 		(uuid "8dfd0235-58bc-43a7-80a9-5480b3b16a4e")
 	)
 	(junction
+		(at 95.25 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a207c369-525c-4ce9-98d9-ecc1515af26c")
+	)
+	(junction
 		(at 91.44 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2255,6 +2261,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 166.37) (xy 97.79 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67529ed9-b2e4-448e-9ef2-cef40aa8354a")
+	)
+	(wire
+		(pts
 			(xy 50.8 50.8) (xy 50.8 54.61)
 		)
 		(stroke
@@ -2365,7 +2381,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 166.37) (xy 97.79 166.37)
+			(xy 91.44 166.37) (xy 95.25 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2752,6 +2768,16 @@
 			(type default)
 		)
 		(uuid "f82ed405-72ca-401e-adda-6c1d5a6a7cbd")
+	)
+	(wire
+		(pts
+			(xy 95.25 166.37) (xy 95.25 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8d45f38-4b77-4e6d-b131-00b003eca729")
 	)
 	(wire
 		(pts
@@ -3261,7 +3287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 141.9352 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -3500,7 +3526,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 154.6352 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4131,7 +4157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 239.522 127 90)
 			(hide yes)
 			(show_name no)
@@ -4213,7 +4239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 107.6452 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4295,7 +4321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 120.3452 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4377,7 +4403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD2.7mm"
 			(at 64.77 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4612,7 +4638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 237.1852 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5007,7 +5033,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm"
 			(at 124.46 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -5089,7 +5115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 241.3 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -5494,7 +5520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
 			(at 106.68 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5571,7 +5597,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 177.8 114.808 90)
 			(hide yes)
 			(show_name no)
@@ -5731,7 +5757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 42.8752 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5889,7 +5915,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD2.7mm"
 			(at 81.28 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -6122,7 +6148,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm"
 			(at 91.44 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -6204,7 +6230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 249.8852 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6442,7 +6468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 150.8252 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6602,7 +6628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD2.7mm"
 			(at 64.77 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -6881,6 +6907,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 95.25 171.45 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0ed64bf-c1ca-4edc-8a6f-fad39a81f1f3")
+		(property "Reference" "#FLG07"
+			(at 95.25 173.355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 95.25 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 95.25 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15fd5220-5eac-467d-9897-5635d1a14380")
+		)
+		(instances
+			(project "PCB"
+				(path "/8904b003-95b6-476e-93a4-c0afb2c5d7e3/bd481dc0-0e8b-4283-b170-81e53db339ca"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 60.96 62.23 270)
 		(unit 1)
@@ -6996,7 +7100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 167.3352 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -7232,7 +7336,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 87.63 168.148 90)
 			(hide yes)
 			(show_name no)
@@ -7470,7 +7574,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
 			(at 82.55 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -8015,7 +8119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 79.7052 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -8097,7 +8201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 162.2552 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8179,7 +8283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
 			(at 81.28 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8411,7 +8515,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD2.7mm"
 			(at 81.28 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8803,7 +8907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
 			(at 30.48 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -8880,7 +8984,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRR1260"
 			(at 129.54 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -8962,7 +9066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 39.0652 180.34 0)
 			(hide yes)
 			(show_name no)
